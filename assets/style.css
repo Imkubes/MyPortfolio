@@ -33,3 +33,19 @@ nav a {
     text-decoration: none;
     font-size: 175%;
 }
+
+h2 {
+    display: flex;
+    font-size: 250%;
+    position: relative;
+    color: #F3F7F0;
+    left: 1300px;
+    top: 125px;
+}
+
+.bg-image {
+    background-image: url("https://i.imgur.com/BB7Uwrp.jpg");
+    padding: 150px;
+    background-repeat: no-repeat;
+    background-size: 225vh 60vh;
+}
