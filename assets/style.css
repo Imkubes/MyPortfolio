@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #19323C;
+    color: #F3F7F0;
+    height: 120px;
+}
+
+h1 {
+    display: flex;
+    font-size: 300%;
+    background-color: #5E8C61;
+    color: #F3F7F0;
+    position: relative;
+    padding-left: 125px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    right: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+nav a {
+    color: #F3F7F0;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 175%;
+}
