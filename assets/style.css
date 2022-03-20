@@ -49,3 +49,23 @@ h2 {
     background-repeat: no-repeat;
     background-size: 225vh 60vh;
 }
+
+.about-me p {
+    height: 100px;
+    width: 1000px;
+    background-color: #F3F7F0;
+    color: #19323C;
+    box-sizing: border-box;
+    line-height: 120%;
+    position: relative;
+    left: 750px;
+}
+
+ .about-me-title {
+    font-size: 550%;
+    position: relative;
+    left: 50px;
+    margin-top: 25px;
+    text-decoration: underline;
+    color: #19323C;
+}
