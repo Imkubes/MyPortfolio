@@ -131,8 +131,7 @@ h2 {
 .css-bg-image {
     display: flex;
     position: absolute;
-    top: 1000px;;
-    border-left: 8px solid #5E8C61;
+    top: 1000px;
 }
 
 .css-bg-image #CSS {
@@ -251,10 +250,10 @@ footer p {
 
 @media screen and (max-width: 768px) {
     h2 {
-        left: 750px;
+        left: 650px;
         top: -59px;
         color: #5E8C61;
-        font-size: 50px;
+        font-size: 25px;
     }
     
     .bg-image {
@@ -267,30 +266,48 @@ footer p {
         
     }
     .about-me-title{
-        width:100%
+        width: 75%;
+        left: 20px;
+    }
+
+    .about-me p {
+        left: 500px;
+        max-width: 550px;
     }
 
     .css-bg-image {
         top: 1000px;
+        left: 550px;
+    }
+
+    .my-work {
+        top: 900px;
+        left: 20px;
     }
 
     .image-one {
-        top: -25px;
-        left: 25px;
+        top: 1000px;
+        left: 800px;
     }
 
     .image-two {
-        top: -20px;
-        ]
+        top: 1200px;
+        left: 800px;
     }
 
     #contact p {
         font-size: 30px;
+        left: 150px;
     }
 
     .contact-me ul {
         top: 1600px;
+        left: 150px;
         line-height: 60px;
+    }
+
+    footer p {
+        top: 2000px;
     }
 
 }
@@ -298,7 +315,7 @@ footer p {
 @media screen and (max-width: 412px) {
 
     h2 {
-        left: 530px;
+        left: 130px;
     }
 
     .bg-image {
