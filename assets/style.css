@@ -85,7 +85,7 @@ h2 {
     position: relative;
     display: block;
     bottom: 80px;
-    left: 750px;
+    left: 650px;
     max-width: 900px;
     line-height: 35px;
 }
@@ -149,23 +149,38 @@ h2 {
 
 .image-one {
     background-image: url("https://i.imgur.com/MUH4g9X.jpg");
+    padding: 90px;
     background-repeat: no-repeat;
-    position: relative;
     background-size: 20vh 15vh;
-    padding: 75px;
-    left: 1100px;
-    top: 80px;
-    max-width: 10px;
+    position: relative;
+    left: 1350px;
+    top: 1025px;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.image-one {
+    display: flex;
+    position: absolute;
 }
 
 .image-two {
     background-image: url("https://i.imgur.com/MUH4g9X.jpg");
+    padding: 90px;
     background-repeat: no-repeat;
-    position: relative;
     background-size: 20vh 15vh;
-    padding: 75px;
+    position: relative;
     left: 1100px;
-    top: 100px;
+    top: 1025px;
+    box-sizing: border-box;
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.image-two {
+    display: flex;
+    position: absolute;
 }
 
 
