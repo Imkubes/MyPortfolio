@@ -155,6 +155,7 @@ h2 {
     padding: 75px;
     left: 1100px;
     top: 80px;
+    max-width: 10px;
 }
 
 .image-two {
