@@ -291,4 +291,50 @@ footer p {
     footer p {
         top: 2800px;
     }
+    
+}
+
+@media screen and (max-width:384px) {
+    h2 {
+        left: 530px;
+    }
+
+    .bg-image {
+        background-size: 612px 400px;
+        min-width: 700px;
+    }
+
+    .about-me-title {
+        max-width: 100px;
+    }
+
+    .about-me p {
+        left: 630px;
+    }
+
+    .my-work {
+        top: 1200px;
+    }
+
+    .css-bg-image {
+        top: 1400px;
+        left: 500px;
+    }
+
+    .contact-me-title {
+        top: 1900px;
+    }
+
+    #contact p {
+        top: 2200px;
+    }
+
+    .contact-me ul {
+        top: 2400px;
+    }
+
+    footer p {
+        top: 2800px;
+    }
+    
 }
