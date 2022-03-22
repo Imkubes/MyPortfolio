@@ -342,6 +342,7 @@ footer p {
 
     .image-one {
         left: 50px;
+        top: 500px;
     }
 
     .contact-me-title {
@@ -387,6 +388,15 @@ footer p {
     .css-bg-image {
         top: 1400px;
         left: 500px;
+    }
+
+    .image-one {
+        top: 1350px;
+        left: 800px;
+    }
+
+    .image-two {
+        top: 1550px;
     }
 
     .contact-me-title {
