@@ -46,11 +46,15 @@ nav a {
 
 h2 {
     display: flex;
-    font-size: 250%;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 220%;
     position: relative;
-    color: #F3F7F0;
-    left: 1300px;
-    top: 125px;
+    color: black;
+    left: 365px; 
+    top: 140px;
+    max-width: 900px;
+    flex-wrap: wrap;
 }
 
 .bg-image {
@@ -58,11 +62,20 @@ h2 {
     padding: 150px;
     background-repeat: no-repeat;
     background-size: 225vh 60vh;
+    max-width: 1500px;
+    min-height: 300px;
+    min width: 768px;
+}
+
+#about-me{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 .about-me p {
-    height: 100px;
-    width: 1000px;
+    /* height: 100px; */
+    /* width: 1000px; */
     padding-left: 40px;
     font-size: 120%;
     color: #F3F7F0;
@@ -70,15 +83,19 @@ h2 {
     border-left: 8px solid #5E8C61;
     line-height: 120%;
     position: relative;
+    display: block;
+    bottom: 80px;
     left: 750px;
+    max-width: 900px;
+    line-height: 35px;
 }
 
  .about-me-title {
     font-size: 550%;
     position: relative;
-    display: flex;
+    /* display: flex; */
     left: 110px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-left: 60px;
     margin-top: 40px;
     text-decoration: underline;
@@ -89,30 +106,41 @@ h2 {
     background-image: url("https://i.imgur.com/cTI9QHt.jpg");
     padding: 90px;
     background-repeat: no-repeat;
-    background-size: 40vh 25vh;
+    background-size: 20vh 25vh;
     position: relative;
     left: 800px;
-    top: 150px;
+    top: 550px;
     border-left: 8px solid #5E8C61;
     box-sizing: border-box;
+    min-width: 200px;
+    min-height: 50px;
 }
 .my-work{
     font-size: 550%;
-    position: relative;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     margin-left: 60px;
     margin-top: 40px;
     left: 110px;
-    top: 150px;
+    top: 850px;
     text-decoration: underline;
     color: #5E8C61;
 }
+
+.css-bg-image {
+    display: flex;
+    position: absolute;
+    top: 1000px;;
+    border-left: 8px solid #5E8C61;
+}
+
 .css-bg-image #CSS {
     display: flex;
-    position: relative;
-    bottom: 80px;
-    right: 75px;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 155px;
+    left: 75px;
     font-weight: bold;
     font-size: 20px;
     color: #F3F7F0;
@@ -121,12 +149,13 @@ h2 {
 
 .contact-me-title {
     font-size: 550%;
-    position: relative;
+    position: absolute;
     display: flex;
     margin-left: 60px;
     margin-top: 40px;
+    margin-bottom: 20px;
     left: 85px;
-    top: 220px;
+    bottom: -420px;
     text-decoration: underline;
     color: #5E8C61;
     flex-wrap: wrap;
@@ -134,32 +163,35 @@ h2 {
 
 .contact-me p {
     display: flex;
-    position: relative;
+    position: absolute;
     flex-wrap: wrap;
-    top: 300px;
+    bottom: -550px;
     left: 600px;
     font-weight: bold;
     font-size: larger;
     color: #5E8C61;
     text-decoration: underline;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    min-width: 500px;
 }
 
 .contact-me ul {
     text-decoration: underline;
-    line-height: 135px;
+    line-height: 100px;
     font-weight: bold;
-    font-size: 225%;
-    position: relative;
-    top: 300px;
+    font-size: 200%;
+    position: absolute;
+    bottom: -1075px;
     left: 600px;
     color: #F3F7F0;
+    min-height: 500px;
+    min-width: 600px;
 }
 
 .scroll-to-top {
     position: fixed;
     bottom: 10px;
-    right: 15px;
+    right: 20px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -173,79 +205,90 @@ h2 {
 
 footer p {
     font-size: 130%;
-    position: relative;
-    top: 300px;
+    position: absolute;
+    bottom: -1025px;
+    left: 15px;
     margin-left: 20px;
     font-weight: bold;
 }
 
-@media screen and (max-width: 1200px) {
-    .about-me {
-        width: 120%;
-    }
-
-    #work #contact {
-        width: 120%;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .about-me {
-        width: 95%;
-    }
-
-    #work #contact {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .about-me {
-        width: 85%;
-    }
-
-    #work #contact {
-        width: 85%;
-    }
-}
-
 @media screen and (max-width: 768px) {
-    .about-me {
-        width: 70%;
+    h2 {
+        left: 750px;
+        top: -59px;
+        color: #5E8C61;
+        font-size: 50px;
+    }
+    
+    .bg-image {
+        background-size: 768px 350px;
+        
     }
 
-    #work #contact {
-        width: 70%;
+    #about-me {
+        max-height: 50%;t
+        
     }
+    .about-me-title{
+        width:100%
+    }
+
+    .css-bg-image {
+        top: 1000px;
+    }
+
+    #contact p {
+        font-size: 30px;
+    }
+
+    .contact-me ul {
+        top: 1600px;
+        line-height: 60px;
+    }
+
 }
 
-@media screen and (max-width: 600px) {
-    .about-me {
-        width:55%;
+@media screen and (max-width: 412px) {
+
+    h2 {
+        left: 530px;
     }
 
-    #work #contact {
-        width: 55%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .about-me {
-        width: 40%;
+    .bg-image {
+        background-size: 612px 400px;
+        min-width: 700px;
     }
 
-    #work #contact {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-
-    .about-me {
-        width: 25%;
+    .about-me-title {
+        max-width: 100px;
     }
 
-    #work #contact {
-        width: 25%;
+    .about-me p {
+        left: 630px;
+    }
+
+    .my-work {
+        top: 1200px;
+    }
+
+    .css-bg-image {
+        top: 1400px;
+        left: 500px;
+    }
+
+    .contact-me-title {
+        top: 1900px;
+    }
+
+    #contact p {
+        top: 2200px;
+    }
+
+    .contact-me ul {
+        top: 2400px;
+    }
+
+    footer p {
+        top: 2800px;
     }
 }
