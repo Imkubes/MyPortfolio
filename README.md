@@ -4,4 +4,4 @@ Hello! Welcome to My Portfolio! Please head on over to my page to check out the 
 
 ![portfolio](https://user-images.githubusercontent.com/99090378/162601302-36f16aaf-58ef-45b0-96a7-0adb9a723e09.PNG)
 
-[I'm an inline-style link](https://imkubes.github.io/MyPortfolio/)
+[link](https://imkubes.github.io/MyPortfolio/)
